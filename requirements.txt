@@ -1,0 +1,16 @@
+# Core LangChain integrations
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-qdrant
+langchain-groq
+
+# Document loading and DOCX support
+unstructured
+python-docx
+
+# Embedding model
+sentence-transformers
+
+# Qdrant client used by the LangChain Qdrant integration
+qdrant-client
