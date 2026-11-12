@@ -1,0 +1,2 @@
+Talk to Document is a document question-answering project that allows users to ask questions about the content of a Word (.docx) document.
+The project uses LangChain to load and split the document into smaller text chunks. Hugging Face Sentence Transformers creates embeddings from the chunks, and Qdrant stores them in an in-memory vector database. When a user asks a question, the application retrieves the three most relevant chunks and sends them as context to the Groq Llama 3.3 model to generate an answer.
